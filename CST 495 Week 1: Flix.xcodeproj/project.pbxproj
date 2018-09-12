@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		605E7E78214967910081F863 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605E7E77214967910081F863 /* AppDelegate.swift */; };
-		605E7E7A214967910081F863 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605E7E79214967910081F863 /* ViewController.swift */; };
 		605E7E7D214967910081F863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605E7E7B214967910081F863 /* Main.storyboard */; };
 		605E7E7F214967910081F863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605E7E7E214967910081F863 /* Assets.xcassets */; };
 		605E7E82214967910081F863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605E7E80214967910081F863 /* LaunchScreen.storyboard */; };
 		605E7E8D214967940081F863 /* CST_495_Week_1__FlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605E7E8C214967940081F863 /* CST_495_Week_1__FlixTests.swift */; };
 		605E7E98214967940081F863 /* CST_495_Week_1__FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605E7E97214967940081F863 /* CST_495_Week_1__FlixUITests.swift */; };
+		605E7EA62149777F0081F863 /* Now Playing VCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605E7EA52149777F0081F863 /* Now Playing VCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		605E7E74214967910081F863 /* CST 495 Week 1: Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CST 495 Week 1: Flix.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		605E7E77214967910081F863 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		605E7E79214967910081F863 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		605E7E7C214967910081F863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		605E7E7E214967910081F863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		605E7E81214967910081F863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		605E7E93214967940081F863 /* CST 495 Week 1: FlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CST 495 Week 1: FlixUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		605E7E97214967940081F863 /* CST_495_Week_1__FlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CST_495_Week_1__FlixUITests.swift; sourceTree = "<group>"; };
 		605E7E99214967940081F863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605E7EA52149777F0081F863 /* Now Playing VCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Now Playing VCViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				605E7E77214967910081F863 /* AppDelegate.swift */,
-				605E7E79214967910081F863 /* ViewController.swift */,
+				605E7EA52149777F0081F863 /* Now Playing VCViewController.swift */,
 				605E7E7B214967910081F863 /* Main.storyboard */,
 				605E7E7E214967910081F863 /* Assets.xcassets */,
 				605E7E80214967910081F863 /* LaunchScreen.storyboard */,
@@ -259,8 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				605E7E7A214967910081F863 /* ViewController.swift in Sources */,
 				605E7E78214967910081F863 /* AppDelegate.swift in Sources */,
+				605E7EA62149777F0081F863 /* Now Playing VCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
