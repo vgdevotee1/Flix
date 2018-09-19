@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6036E1512152AAC3006C3DA0 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6036E1502152AAC3006C3DA0 /* MovieCell.swift */; };
 		605E7E78214967910081F863 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605E7E77214967910081F863 /* AppDelegate.swift */; };
 		605E7E7D214967910081F863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605E7E7B214967910081F863 /* Main.storyboard */; };
 		605E7E7F214967910081F863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605E7E7E214967910081F863 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6036E1502152AAC3006C3DA0 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		605E7E74214967910081F863 /* CST 495 Week 1: Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CST 495 Week 1: Flix.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		605E7E77214967910081F863 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		605E7E7C214967910081F863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				605E7E77214967910081F863 /* AppDelegate.swift */,
 				605E7EA52149777F0081F863 /* Now Playing VCViewController.swift */,
+				6036E1502152AAC3006C3DA0 /* MovieCell.swift */,
 				605E7E7B214967910081F863 /* Main.storyboard */,
 				605E7E7E214967910081F863 /* Assets.xcassets */,
 				605E7E80214967910081F863 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				605E7E78214967910081F863 /* AppDelegate.swift in Sources */,
 				605E7EA62149777F0081F863 /* Now Playing VCViewController.swift in Sources */,
+				6036E1512152AAC3006C3DA0 /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
