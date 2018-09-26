@@ -18,6 +18,8 @@
 		605E7E98214967940081F863 /* CST_495_Week_1__FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605E7E97214967940081F863 /* CST_495_Week_1__FlixUITests.swift */; };
 		605E7EA62149777F0081F863 /* Now Playing VCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605E7EA52149777F0081F863 /* Now Playing VCViewController.swift */; };
 		60F6A8A0215BD9F1004CA2A3 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F6A89F215BD9F1004CA2A3 /* DetailVC.swift */; };
+		60F6A8A2215BE42C004CA2A3 /* PosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F6A8A1215BE42B004CA2A3 /* PosterCell.swift */; };
+		60F6A8A6215BE65A004CA2A3 /* SuperheroviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F6A8A5215BE65A004CA2A3 /* SuperheroviewController.swift */; };
 		EBFAF9F7FFC07442388E8BBD /* Pods_CST_495_Week_1__FlixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B0411FF799D921829EF3FE /* Pods_CST_495_Week_1__FlixTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +58,8 @@
 		605E7E99214967940081F863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		605E7EA52149777F0081F863 /* Now Playing VCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Now Playing VCViewController.swift"; sourceTree = "<group>"; };
 		60F6A89F215BD9F1004CA2A3 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		60F6A8A1215BE42B004CA2A3 /* PosterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCell.swift; sourceTree = "<group>"; };
+		60F6A8A5215BE65A004CA2A3 /* SuperheroviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroviewController.swift; sourceTree = "<group>"; };
 		90B0411FF799D921829EF3FE /* Pods_CST_495_Week_1__FlixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CST_495_Week_1__FlixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C73F65285034012120B2592 /* Pods-CST 495 Week 1: FlixUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CST 495 Week 1: FlixUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CST 495 Week 1: FlixUITests/Pods-CST 495 Week 1: FlixUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A8C32D6AC883F18CDAADE6F0 /* Pods_CST_495_Week_1__Flix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CST_495_Week_1__Flix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,6 +156,7 @@
 			children = (
 				605E7EA52149777F0081F863 /* Now Playing VCViewController.swift */,
 				60F6A89F215BD9F1004CA2A3 /* DetailVC.swift */,
+				60F6A8A5215BE65A004CA2A3 /* SuperheroviewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				6036E1502152AAC3006C3DA0 /* MovieCell.swift */,
+				60F6A8A1215BE42B004CA2A3 /* PosterCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -403,6 +409,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				605E7E78214967910081F863 /* AppDelegate.swift in Sources */,
+				60F6A8A2215BE42C004CA2A3 /* PosterCell.swift in Sources */,
+				60F6A8A6215BE65A004CA2A3 /* SuperheroviewController.swift in Sources */,
 				60F6A8A0215BD9F1004CA2A3 /* DetailVC.swift in Sources */,
 				605E7EA62149777F0081F863 /* Now Playing VCViewController.swift in Sources */,
 				6036E1512152AAC3006C3DA0 /* MovieCell.swift in Sources */,
