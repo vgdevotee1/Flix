@@ -17,6 +17,7 @@
 		605E7E8D214967940081F863 /* CST_495_Week_1__FlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605E7E8C214967940081F863 /* CST_495_Week_1__FlixTests.swift */; };
 		605E7E98214967940081F863 /* CST_495_Week_1__FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605E7E97214967940081F863 /* CST_495_Week_1__FlixUITests.swift */; };
 		605E7EA62149777F0081F863 /* Now Playing VCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605E7EA52149777F0081F863 /* Now Playing VCViewController.swift */; };
+		60F6A8A0215BD9F1004CA2A3 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F6A89F215BD9F1004CA2A3 /* DetailVC.swift */; };
 		EBFAF9F7FFC07442388E8BBD /* Pods_CST_495_Week_1__FlixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B0411FF799D921829EF3FE /* Pods_CST_495_Week_1__FlixTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		605E7E97214967940081F863 /* CST_495_Week_1__FlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CST_495_Week_1__FlixUITests.swift; sourceTree = "<group>"; };
 		605E7E99214967940081F863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		605E7EA52149777F0081F863 /* Now Playing VCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Now Playing VCViewController.swift"; sourceTree = "<group>"; };
+		60F6A89F215BD9F1004CA2A3 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		90B0411FF799D921829EF3FE /* Pods_CST_495_Week_1__FlixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CST_495_Week_1__FlixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C73F65285034012120B2592 /* Pods-CST 495 Week 1: FlixUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CST 495 Week 1: FlixUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CST 495 Week 1: FlixUITests/Pods-CST 495 Week 1: FlixUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A8C32D6AC883F18CDAADE6F0 /* Pods_CST_495_Week_1__Flix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CST_495_Week_1__Flix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,9 +118,9 @@
 		605E7E76214967910081F863 /* CST 495 Week 1: Flix */ = {
 			isa = PBXGroup;
 			children = (
+				60F6A89E215BD9A7004CA2A3 /* Views */,
+				60F6A89D215BD998004CA2A3 /* ViewControllers */,
 				605E7E77214967910081F863 /* AppDelegate.swift */,
-				605E7EA52149777F0081F863 /* Now Playing VCViewController.swift */,
-				6036E1502152AAC3006C3DA0 /* MovieCell.swift */,
 				605E7E7B214967910081F863 /* Main.storyboard */,
 				605E7E7E214967910081F863 /* Assets.xcassets */,
 				605E7E80214967910081F863 /* LaunchScreen.storyboard */,
@@ -143,6 +145,23 @@
 				605E7E99214967940081F863 /* Info.plist */,
 			);
 			path = "CST 495 Week 1: FlixUITests";
+			sourceTree = "<group>";
+		};
+		60F6A89D215BD998004CA2A3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				605E7EA52149777F0081F863 /* Now Playing VCViewController.swift */,
+				60F6A89F215BD9F1004CA2A3 /* DetailVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		60F6A89E215BD9A7004CA2A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6036E1502152AAC3006C3DA0 /* MovieCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		6F46083BDADFC9A89B0430E6 /* Frameworks */ = {
@@ -384,6 +403,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				605E7E78214967910081F863 /* AppDelegate.swift in Sources */,
+				60F6A8A0215BD9F1004CA2A3 /* DetailVC.swift in Sources */,
 				605E7EA62149777F0081F863 /* Now Playing VCViewController.swift in Sources */,
 				6036E1512152AAC3006C3DA0 /* MovieCell.swift in Sources */,
 			);

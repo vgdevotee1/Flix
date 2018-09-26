@@ -89,6 +89,18 @@ class Now_Playing_VCViewController: UIViewController, UITableViewDataSource
         return cell
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let cell = sender as! UITableViewCell
+        if let indexPath = tableView.indexPath(for: cell)
+        {
+            let movie = movies[indexPath.row]
+            let detailViewController = segue.destination as! DetailVC
+            detailViewController.movie = movie
+        }
+        
+    }
+    
+    
     override func didReceiveMemoryWarning()
     {
         super.didReceiveMemoryWarning()
